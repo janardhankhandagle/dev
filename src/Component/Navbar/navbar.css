@@ -1,0 +1,21 @@
+.navbar{
+    background-color: hsl(180, 100%, 50%);
+}
+.nav-link{
+    color: rgb(17, 15, 15);
+    text-decoration: none;
+}
+hr{
+    size: 2;
+    width: 100%;
+}
+.navbar-toggler-icon{
+    border: none;
+}
+.navbar-toggler-icon:hover{
+    border: none;
+}
+.nav-profile{
+    text-decoration: none;
+    padding-top: -3px;
+}

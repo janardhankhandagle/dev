@@ -1,0 +1,46 @@
+
+.schechedular-container{
+    padding: 1rem;
+    margin-top: 1rem;
+   
+}
+
+.schedular-heading{
+    float:inline-end;    
+}
+
+.schedular-select{
+    width: 100%;
+    height: 40px;
+}
+td Button:first-child {
+    margin-right: 5px; /* Specific space for the first button */
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  
+
+@media screen and (max-width: 500px){
+    
+    .schechedular-container{
+        width: 90%;
+       
+    }
+    .table-schedular{
+        width: 90%;
+    
+    }
+    .schedular-inter{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    td Button:first-child {
+        margin-bottom: 5px;
+        margin-left: 0px; /* Specific space for the first button */
+      }
+      
+}

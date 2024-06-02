@@ -1,0 +1,74 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.forgot-container {
+  position: relative;
+  max-width: 350px;
+  margin-top: 150px;
+  width: 100%;
+  
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0.5px solid #ede1e1;
+  box-shadow: 0px 4px 12px rgba(239, 227, 227, 0.5);
+  
+  .forgot-header {
+    
+    font-size: 1.7rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .forgot-form {
+    margin-top: 30px;
+
+    .input-box {
+      width: 100%;
+      margin-top: 20px;
+
+      label {
+        color: #333;
+      }  
+    }
+    .forgot-btn {
+      height: 35px;
+      width: 100%;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 30px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      background: rgb(130, 106, 251);
+      
+      &:hover {
+        background: rgb(88, 56, 250);
+      }
+      .for-btn{
+        color: white;
+      text-decoration: none;
+      font-size: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+    .forgot-container {
+        margin-top: 70px;
+    }
+  .forgot-form {
+    .column {
+      flex-wrap: wrap;
+    }
+
+    .gender-option,
+    .gender {
+      row-gap: 15px;
+    }
+  
+}
+}
+
